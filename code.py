@@ -4,7 +4,7 @@
 #Add levels to the game to make it more exciting
 
 from random import randint  #To generate a random number
-name = input("Please Enter your name: ")
+name = input("Please Enter your Name: ")
 print("Welcome to my Number game, " + name)
 def game():
     rand_number = randint(0,100)   #Generates a random number
